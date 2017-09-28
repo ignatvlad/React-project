@@ -1,0 +1,39 @@
+@color: darkslategray;
+@reverseColor: white;
+@buttonColor: slategray;
+@borderRadius: 3px;
+@primeFont: verdana;
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.carsFilters {
+  max-width: 300px;
+  min-width: 200px;
+  flex:1;
+  flex-grow: 1;
+}
+.carsList {
+  max-width: 300px;
+  min-width: 200px;
+  flex:1;
+  flex-grow: 1;
+}
+.carsResult {
+  max-width: 500px;
+  min-width: 300px;
+  flex:1;
+  flex-grow: 2;
+  li{
+    list-style: none;
+    span{
+      font-weight: bold;
+    }
+  }
+}
+.h1 {
+  font-size: 1.2rem;
+  color: @color;
+  font-family: @primeFont;
+}

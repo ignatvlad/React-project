@@ -1,0 +1,35 @@
+@color: darkslategray;
+@reverseColor: white;
+@buttonColor: slategray;
+@borderRadius: 3px;
+@primeFont: verdana;
+
+.formStyle{
+  background-color: lightyellow;
+  padding: 10px 5px;
+  color: @color;
+}
+
+.inputTxtStyle{
+  width: 100%;
+  border-radius: @borderRadius;
+  box-sizing: border-box;
+  margin: 3px;
+  &:hover{font-style: italic;}
+}
+
+.labelStyle{
+  color: @color;
+  font-family: @primeFont;
+}
+
+.buttonStyle{
+  color: @reverseColor;
+  padding: 3px;
+  border-radius: @borderRadius;
+  background-color: @buttonColor;
+  font-weight: bold;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
